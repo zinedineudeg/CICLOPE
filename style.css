@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+body{
+    background-color: #000000;
+}
+header{
+
+    background-color: rgb(0, 0, 0);
+    height:1200px;
+    background-size:cover;
+    position: relative;
+    background-position: center ;
+    background-image: url("raices 2.png");
+    width:100%;
+}
+
+header img{
+    height: 60px;
+    width: 60px;
+    margin:auto;
+    margin-top: 60px;
+    display: block;
+
+    
+}
+header >img:hover{
+    transform: rotate(150deg) ;
+
+}
+
+header .video{
+    width: 900px;
+    height: auto;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+
+
+}
+header video{
+
+width: 900px;
+height: 600px;
+margin: auto;
+display: block;
+}
+header .ciclope img{
+    width: 100px;
+    height: 100px;
+}
+header>.ciclope img:hover{
+    -webkit-box-reflect: below -3px -webkit-gradient(linear,right bottom, right top, from(transparent), to(rgba(255, 255, 255, 0.5)));
+}
+
+nav{
+    width: 50%;
+    display: block;
+    margin: auto 380px;
+    padding: 0;
+    position: relative;
+    margin-top: 120px;
+    
+  }
+  nav ul{
+    list-style:none;
+    display:flex;
+    padding: 10px;
+    justify-content: end;
+    align-items: center;
+    
+  }
+  nav li a{
+    color: #77B887;
+    letter-spacing: 7px;
+    text-decoration:none;
+    padding:15px;
+    font-size: 25px;
+    font-weight:bold;
+    text-transform:capitalize;
+    font-family: 'Anton', sans-serif;
+
+  }
+  nav li a:hover{
+    text-shadow: rgb(208, 255, 0) 5px 0 20px;
+  }
+  
+
+section h1 {
+  color: #ffffff;
+  font-size: 50px;
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+  letter-spacing: 3px;
+  padding-left: 400px;
+  text-transform: capitalize;
+}
+section{
+  background-image: url("/raise.png");
+  position: relative;
+  background-position:right 200px ;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  height: 2100px;
+  
+}
+
+.articulos{
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+
+}
+.articulos p,h2{
+  color: #ffffff;
+  font-family: 'Anton', sans-serif;
+  font-style:oblique;
+  letter-spacing: 2px;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  
+}
+.imagen{
+margin: 20px;
+
+
+}
+.imagen:hover{
+  border: solid 2px #ffffff;
+  border-radius: 10px;
+  }
+
+.imagen img{
+  width: 270px;
+  height: 400px;
+ 
+}
+.raices{
+  padding-top: 230px;
+ 
+}
+.img1{
+  position:absolute;
+  height:700px;
+  width:350px;
+  z-index: -1;
+  left: 90px;
+}
+.img2{
+
+  position:absolute;
+  height:730px;
+  width:500px;
+  z-index: 1;
+  left: 400px;
+  bottom: 480px;
+  
+}
+.text{
+  width: 400px;
+  margin: auto 920px;
+  top: 100px;
+  position: relative;
+  letter-spacing: 1px;
+  font-size: 21px;
+
+}
+.raices .text p{
+  color: #ffffff;
+  font-family: 'Overpass', sans-serif;
+  font-weight:bolder;
+}
+@media all and (max-width:767px ) {
+ 
+
+}
+
+.Contacto{
+  position: relative;
+  margin: 500px auto;
+  display: flex;
+  /*background-color: #20c997;*/
+}
+.logtext img{
+  width: 100px;
+  height: 140px;
+  position: absolute;
+  top: 140px;
+  left:500px;
+}
+.logtext{
+  display: flex;
+}
+.logtext p{
+  padding: 20px;
+  color: #ffffff;
+  position:relative;
+  top: 300px;
+  right: 300px;
+  font-family: 'Overpass', sans-serif;
+  font-weight:lighter;
+
+}
+form.form_contact {
+  top: 130px;
+  position: relative;
+  display: flex;
+  padding: 20px;
+  right: 300px;
+
+}
+form.form_contact h2 {
+  font-size: 30px;
+  color: #303030;
+  align-items: center;
+  text-align: center;
+}
+form.form_contact .user_info {
+  display: flex;
+  flex-direction:column;
+  width: 700px;
+  padding-left:180px;
+  color: #ffffff;
+ 
+}
+
+form.form_contact label {
+  font-weight: 600;
+  font-family: 'Overpass', sans-serif;
+  font-weight:bolder;
+  position: relative;
+}
+form.form_contact input,
+form.form_contact textarea {
+  width: 100%;
+  padding: 8px 10px 5px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #000000;
+  color: #000000;
+  font-size: 16px;
+  border-radius: 20px;
+}
+form.form_contact textarea {
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 500px;
+}
+form.form_contact input[type="button"] {
+  width: 200px;
+  font-family: 'Overpass', sans-serif;
+  font-weight:bolder;
+  padding: 18px;
+  border: none;
+  border-radius: 25px;
+  align-self: flex-end;
+  font-size: 16px;
+  font-weight:500;
+  cursor: pointer;
+}
+form.form_contact input[type="submit"]:hover {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.form__contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.logos{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 200px;
+
+}
+.logos .logo{
+  padding: 10px;
+  margin: 10px;
+  width: auto;
+  height: auto;
+  justify-content: center;
+
+}
+.logo a i {
+  font-size: 50px;
+}
+.img img{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: -700px;
+  z-index: -1;
+}
