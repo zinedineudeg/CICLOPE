@@ -14,7 +14,7 @@ header{
     background-size:cover;
     position: relative;
     background-position: center ;
-    background-image: url("raices 2.png");
+    background-image: url("IMG/raices 2.png");
     width:100%;
 }
 
@@ -101,7 +101,7 @@ section h1 {
   text-transform: capitalize;
 }
 section{
-  background-image: url("/raise.png");
+  background-image: url("IMG/raise.png");
   position: relative;
   background-position:right 200px ;
   background-repeat: no-repeat;
